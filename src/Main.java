@@ -1,5 +1,10 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Случайное число от 0 до 1: " + Math.random());
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите текст и нажмите <Enter>: ");
+        String text = scanner.nextLine();
+        System.out.println("Длина текста: " + text.length());
     }
 }
