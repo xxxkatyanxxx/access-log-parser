@@ -11,10 +11,10 @@ public class Main {
         int number2 = new Scanner(System.in).nextInt();
 
 
-        System.out.println(number1+number2);
-        System.out.println(number1-number2);
-        System.out.println(number1*number2);
-        System.out.println((double) number1/number2);
+        System.out.println("Сумма чисел: " + (number1+number2));
+        System.out.println("Разность чисел: " + (number1-number2));
+        System.out.println("Произведение чисел: " + (number1*number2));
+        System.out.println("Частное чисел: " + ((double) number1/number2));
         scanner.close();
 
 
